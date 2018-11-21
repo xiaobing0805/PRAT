@@ -169,7 +169,7 @@ def send_robot_report(username, name, task_no, result, output):
                     ),
                    "html", "utf-8")
 
-    msg["Subject"] = Header("AutoLink通知消息", "utf-8")
+    msg["Subject"] = Header("PRAT通知消息", "utf-8")
 
     try:
         user_path = app.config["AUTO_HOME"] + "/users/%s/config.json" % session["username"]

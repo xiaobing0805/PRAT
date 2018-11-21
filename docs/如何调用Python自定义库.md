@@ -1,11 +1,11 @@
 ## 简介
 
-在AutoLink中，我们如何用Python写我们自己的测试库呢？
+在PRAT中，我们如何用Python写我们自己的测试库呢？
 
 
 ## 项目结构
 
-如下图所示，在AutoLink中写Python
+如下图所示，在PRAT中写Python
 
 ![Python项目示例](./img/python_project.png)
 

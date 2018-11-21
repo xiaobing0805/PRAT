@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 
-__author__ = "苦叶子"
+__author__ = "那天不蓝了"
 
 """
 
-公众号: 开源优测
+公众号: 读测优品
 
-Email: lymking@foxmail.com
+Email: 17765287025@163.com
 
 """

@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 
-__author__ = "苦叶子"
+__author__ = "那天不蓝了"
 
 """
 
-公众号: 开源优测
+公众号: 读测优品
 
-Email: lymking@foxmail.com
+Email: 17765287025@163.com
 
 """
 
@@ -176,7 +176,7 @@ def get_task_list(app, username, project):
                 "fail": url_for('static', filename='img/fail.png'),
                 "exception": url_for('static', filename='img/exception.png')}
 
-            #if exists_path(job_path + "/%s" % (next_build - 1)):
+            # if exists_path(job_path + "/%s" % (next_build - 1)):
             running = False
             lock = threading.Lock()
             lock.acquire()

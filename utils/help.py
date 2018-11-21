@@ -18,14 +18,14 @@ def check_version():
     f = codecs.open('version.txt', 'r')
     version = f.readline()
     s = requests.Session()
-    r_version = s.get("https://gitee.com/lym51/AutoLink/raw/master/version.txt").text
+    r_version = s.get("https://gitee.com/lym51/PRAT/raw/master/version.txt").text
     if version != r_version:
         print("*" * 25)
         print("本地版本：v%s" % version)
         print("github版本: v%s" % r_version)
-        print("AutoLinK开源平台代码已有更新，请到下面的地址更新代码:")
+        print("PRAT开源平台代码已有更新，请到下面的地址更新代码:")
         print("下载最新代码，直接覆盖本地即可")
-        print("https://github.com/small99/AutoLink")
+        print("https://github.com/xiaobing0805/PRAT")
         print("*" * 25)
         exit(0)
     f.close()

@@ -2,11 +2,11 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>AutoLink - 开源优测自动化测试集成解决方案</title>
+        <title>PRAT - 读测优品自动化测试集成解决方案</title>
 
-        <meta name="keywords" content="AutoLink, 开源优测, 苦叶子, web ide"/>
+        <meta name="keywords" content="PRAT, 读测优品, 那天不蓝了, web ide"/>
         <meta name="description" content="A Web-based IDE for Auto Testing using Auto Open Source Testing Framework, do your development anytime, anywhere."/>
-        <meta name="author" content="苦叶子">
+        <meta name="author" content="那天不蓝了">
         <link rel="stylesheet" href="{{ url_for('static', filename='lib/easyui/themes/bootstrap/easyui.css') }}">
         <link rel="stylesheet" href="{{ url_for('static', filename='lib/easyui/themes/icon.css') }}">
 
@@ -23,12 +23,12 @@
     <body class="easyui-layout">
         <div data-options="region:'north',border:true" style="padding:0;height:60px;">
             <div class="easyui-panel" style="padding:0">
-                <a href="https://github.com/small99" target="_blank" class="easyui-linkbutton" data-options="plain:true"><img src="{{ url_for('static', filename='img/logo.min.png') }}" alt="开源优测" style="padding-top:8px;"/></a>
+                <a href="https://github.com/xiaobing0805" target="_blank" class="easyui-linkbutton" data-options="plain:true"><img src="{{ url_for('static', filename='img/logo.min.png') }}" alt="那天不蓝了" style="padding-top:8px;"/></a>
                 <a href="#" onclick="addTab('调度管理', '/scheduler/', 'icon-scheduler')" class="easyui-linkbutton" data-options="iconCls:'icon-scheduler'">调度管理</a>
                 <a href="#" onclick="addTab('系统管理', '/user', 'icon-settings')" class="easyui-linkbutton" data-options="iconCls:'icon-settings'">系统管理</a>
-                <a href="https://github.com/small99/AutoLink/tree/master/docs" target="_blank" class="easyui-linkbutton" data-options="iconCls:'icon-keyword-help'">用户指南</a>
+                <a href="https://github.com/xiaobing0805/PRAT/tree/master/docs" target="_blank" class="easyui-linkbutton" data-options="iconCls:'icon-keyword-help'">用户指南</a>
 
-                <!--<a href="https://github.com/small99/AutoLink/blob/master/UPDATEING.md" target="_blank" class="easyui-linkbutton" data-options="iconCls:'icon-update'">更新清单</a>-->
+                <!--<a href="https://github.com/xiaobing0805/PRAT/blob/master/UPDATEING.md" target="_blank" class="easyui-linkbutton" data-options="iconCls:'icon-update'">更新清单</a>-->
 
 
                 <!--<a href="#" class="easyui-menubutton" data-options="plain:true">源码</a>
@@ -134,7 +134,7 @@
             <div onclick="expand()" data-options="iconCls:'icon-expand'">展开</div>
             <div onclick="collapse()" data-options="iconCls:'icon-collapse'">折叠</div>
             <div class="menu-sep"></div>
-            {% if username == "AutoLink" %}
+            {% if username == "PRAT" %}
             <div onclick="addTab('用户管理', '/user', 'icon-user')" data-options="iconCls:'icon-user'">用户管理</div>
             <div class="menu-sep"></div>
             {% endif %}

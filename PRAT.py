@@ -4,9 +4,9 @@ __author__ = "那天不蓝了"
 
 """
 
-公众号: 开源优测
+公众号: 读测优品
 
-Email: lymking@foxmail.com
+Email: 17765287025@163.com
 
 """
 import os
@@ -31,7 +31,7 @@ manager = Manager(app)
 
 if __name__ == '__main__':
 
-    check_version()
+    # check_version()
 
     load_all_task(app)
 
