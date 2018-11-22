@@ -6,11 +6,15 @@
 
 3. 执行以下命令安装PRAT依赖
 
-> pip install -r requirements.txt
+> pip2 install -r requirements.txt
+> pip3 install -r requirements.txt
+注意：如果有Python2和Python3两个版本，建议区分pip版本，对应pip2和pip3
 
 4.1 执行以下命令启动PRAT服务
 
-> python PRAT.py runserver
+> python2 PRAT.py runserver
+> python3 PRAT.py runserver
+注意：如果有Python2和Python3两个版本，建议区分Python版本，对应Python2和Python3
 
 4.1.1 访问以下网址，即可
 
@@ -18,8 +22,8 @@ http://127.0.0.1:5000
 
 4.2 执行以下命令可外网访问
 
-> python PRAT.py runserver -h 0.0.0.0 -p 8000
-通过
+> python2 PRAT.py runserver -h 0.0.0.0 -p 8000
+> python3 PRAT.py runserver -h 0.0.0.0 -p 8000
 
 4.2.1 即可通过你的IP地址来访问
 

@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 
-__author__ = "苦叶子"
+__author__ = "那天不蓝了"
 
 """
 
-公众号: 开源优测
+公众号: 读测优品
 
-Email: lymking@foxmail.com
+Email: 17765287025@163.com
 
 """
 
@@ -18,7 +18,7 @@ def check_version():
     f = codecs.open('version.txt', 'r')
     version = f.readline()
     s = requests.Session()
-    r_version = s.get("https://gitee.com/lym51/PRAT/raw/master/version.txt").text
+    r_version = s.get("https://github.com/xiaobing0805/PRAT/blob/master/version.txt").text
     if version != r_version:
         print("*" * 25)
         print("本地版本：v%s" % version)

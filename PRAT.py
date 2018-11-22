@@ -31,7 +31,7 @@ manager = Manager(app)
 
 if __name__ == '__main__':
 
-    # check_version()
+    check_version()
 
     load_all_task(app)
 

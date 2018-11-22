@@ -40,7 +40,7 @@ PRAT(Python3 RobotFramework Auto Testing)自动化测试集成解决方案.
 
 公众号|读书会|知识星球|赞赏码
 ---|---|---|---
-![公众号](./auto/www/static/img/公众号.jpg)|![读书会](./auto/www/static/img/读书会.png)|![知识星球](./auto/www/static/img/开源优测.png)|![赞赏码](./auto/www/static/img/赞赏码.png)
+![公众号](./auto/www/static/img/公众号.jpg)|![读书会](./auto/www/static/img/读书会.png)|![知识星球](./auto/www/static/img/读测优品.png)|![赞赏码](./auto/www/static/img/赞赏码.png)
 
 ## 截图
 
